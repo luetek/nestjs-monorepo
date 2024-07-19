@@ -1,7 +1,7 @@
 {
-  "name": "nestjs-monorepo",
+  "name": "nest-app",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/nestjs-monorepo/src",
+  "sourceRoot": "apps/nest-app/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -9,14 +9,14 @@
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "nestjs-monorepo:build"
+        "buildTarget": "nest-app:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "nestjs-monorepo:build:development"
+          "buildTarget": "nest-app:build:development"
         },
         "production": {
-          "buildTarget": "nestjs-monorepo:build:production"
+          "buildTarget": "nest-app:build:production"
         }
       }
     }

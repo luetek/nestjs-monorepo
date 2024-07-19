@@ -1,11 +1,11 @@
 /* eslint-disable */
 export default {
-  displayName: 'nestjs-monorepo',
+  displayName: 'nest-app',
   preset: '../../jest.preset.js',
   testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]s$': ['ts-jest', { tsconfig: '<rootDir>/tsconfig.spec.json' }],
   },
   moduleFileExtensions: ['ts', 'js', 'html'],
-  coverageDirectory: '../../coverage/apps/nestjs-monorepo',
+  coverageDirectory: '../../coverage/apps/nest-app',
 };
